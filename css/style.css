@@ -10,13 +10,13 @@ body {
     vertical-align: bottom;
 }
 
-.content {
+.beautyEssenceContainer {
     max-width: 768px;
     margin: 0 auto;
     overflow: hidden;
 }
 
-.content img {
+.beautyEssenceContainer img {
     display: block;
     width: 100%;
 }
@@ -24,7 +24,7 @@ body {
 
 /* contents mv */
 
-.mv-cont {
+.beautyVideoWrapper {
   position: relative;
 }
 
@@ -32,7 +32,7 @@ body {
   width: 100%;
 }
 
-.mv01 {
+.beautyMainVideo {
     position: absolute;
     top: 34.6%;
     left: 12.8%;
@@ -42,65 +42,65 @@ body {
 
 /* cta */
 
-.magic-frame {
+.beautyCtaFrame {
   position: relative;
 }
 
-.base-layer {
+.beautyBaseLayer {
   width: 100%;
 }
 
-.btn_teiki {
+.beautySubscriptionBtn {
     position: absolute;
     top: 2.5%;
     left: 4.5%;
     display: inline-block;
     width: 90%;
 }
-.btn_teiki img {
+.beautySubscriptionBtn img {
   transition: opacity 0.3s ease;
 }
 
-.btn_teiki img:hover {
+.beautySubscriptionBtn img:hover {
   opacity: 0.7;
 }
-.btn_tanpin {
+.beautySinglePurchaseBtn {
     position: absolute;
     top: 3.5%;
     left: 4.5%;
     display: inline-block;
     width: 90%;
 }
-.btn_tanpin img {
+.beautySinglePurchaseBtn img {
   transition: opacity 0.3s ease;
 }
 
-.btn_tanpin img:hover {
+.beautySinglePurchaseBtn img:hover {
   opacity: 0.7;
 }
 
 
 /* gif area */
 
-.gif-cot {
+.beautyAnimationContainer {
   position: relative;
 }
 
-.gif01 {
+.beautyFirstAnimation {
     position: absolute;
     width: 82% !important;
     top: 0;
     left: 9%;
     z-index: 1;
 }
-.gif02 {
+.beautySecondAnimation {
     position: absolute;
     width: 82% !important;
     bottom: 0;
     left: 9%;
     z-index: 1;
 }
-.gif-icon {
+.beautyIngredientIcon {
     position: absolute;
     width: 23.6% !important;
     bottom: 24.1%;
@@ -111,93 +111,93 @@ body {
 
 /*　test カルーセル　*/
 
-.first-sliderr{
+.beautyFirstSliderr{
         width:100%;
     }
-.first-slider img{
+.beautyFirstSlider img{
         width: 100% !important;
 }
-.first-slider .swiper-wrapper{
+.beautyFirstSlider .beautySwiperWrapper{
     transition-timing-function: linear;
    /* gap: 3%;*/
 }
 
-.first-slider .sns-back {
+.beautyFirstSlider .beautySnsBackground {
     position: absolute;
     width: 100%;
     z-index: 1;
 }
 
-.first-slider .swiper-wrapper {
+.beautyFirstSlider .beautySwiperWrapper {
     position: relative;
 }
 
-.second-slider{
+.beautySecondSlider{
         width:100%;
     }
-.second-slider img{
+.beautySecondSlider img{
         width: 100% !important;
 }
-.second-slider .swiper-wrapper{
+.beautySecondSlider .beautySwiperWrapper{
     transition-timing-function: linear;
     /*gap: 3%;*/
 }
 
-.second-slider .sns-back {
+.beautySecondSlider .beautySnsBackground {
     position: absolute;
     width: 100%;
     z-index: 1;
 }
 
-.second-slider .swiper-wrapper {
+.beautySecondSlider .beautySwiperWrapper {
     position: relative;
 }
 
 
 /* accordion area*/
 
-.ac,
-.ac dd {
+.beautyAccordion,
+.beautyAccordion dd {
   margin: 0;
 }
 
-.ac dt {
+.beautyAccordion dt {
   cursor: pointer;
 }
 
-.ac dt img {
+.beautyAccordion dt img {
   width: 100% !important;
   height: auto;
 }
 
-.ac .wrap_btn .btn {
+.beautyAccordion .beautyToggleBtn .beautyBtn {
   width: auto;
   top: 0;
   left: 0;
 }
 
-.ac dd,
-.ac .wrap_btn .btn.cls {
+.beautyAccordion dd,
+.beautyAccordion .beautyToggleBtn .beautyBtn.beautyClose {
   display: none;
 }
 
-.ac .wrap_btn.open .btn.opn {
+.beautyAccordion .beautyToggleBtn.beautyExpanded .beautyBtn.beautyOpen {
   display: none !important;
 }
 
-.ac .wrap_btn.open .btn.cls {
+.beautyAccordion .beautyToggleBtn.beautyExpanded .beautyBtn.beautyClose {
   display: inline !important;
 }
 
-.wrap_btn {
+.beautyToggleBtn {
   position: relative;
 }
 
-.wrap_btn:hover {
+.beautyToggleBtn:hover {
   -webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
-.ac .btn {
+.beautyAccordion .beautyBtn {
     padding: 0;
 }
 
@@ -220,12 +220,12 @@ body {
 
 /* tell area */
 
-.box_call {
+.beautyCallContainer {
 	position: relative;
 
 }
 
-.box_call .call_01 {
+.beautyCallContainer .beautyCallBtn {
     position: absolute;
     width: 91%;
     bottom: 20.5%;
@@ -234,23 +234,23 @@ body {
 }
 
 /* オンマウス時に半透明にする */
-.call_01 img {
+.beautyCallBtn img {
   transition: opacity 0.3s ease;
 }
 
-.call_01 img:hover {
+.beautyCallBtn img:hover {
   opacity: 0.7;
 }
 
 
 @media (max-width: 768px) {
-  .call_01 {
+  .beautyCallBtn {
     pointer-events: auto;
   }
 }
 
 @media (min-width: 769px) {
-  .call_01 {
+  .beautyCallBtn {
     pointer-events: none;
   }
 }
@@ -259,7 +259,7 @@ body {
 /* footer */
 
 /* フッター全体 */
-.footer {
+.beautyFooter {
   background-image: url("https://www.mh-lab.com/mh-lab_onesbouquet/images/onesbouquet_lp_bottom02_09.jpg");
   width: 100%;
   max-width: 768px;
@@ -270,11 +270,11 @@ body {
 }
 
 /* メニューのスタイル */
-.footer-menu{
+.beautyFooterMenu{
   margin-top:5%;
   max-width:768px;
 }
-.footer-menu ul {
+.beautyFooterMenu ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -284,11 +284,11 @@ body {
     gap:5%;
 }
 
-.footer-menu li {
+.beautyFooterMenu li {
   display: inline;
 }
 
-.footer-menu a {
+.beautyFooterMenu a {
   text-decoration: none;
   color: black;
   font-size: 3.5vw;
@@ -296,23 +296,23 @@ body {
   transition: opacity 0.3s ease;
 }
 @media screen and (min-width: 750px) {
-  .footer-menu a{
+  .beautyFooterMenu a{
     font-size:17px;
   }
 }
-.footer-menu a:hover {
+.beautyFooterMenu a:hover {
   text-decoration: none;
   opacity: 0.6;
 }
 
 
-.footer-copyright {
+.beautyFooterCopyright {
   margin-top: 10px;
   font-size: 3vw;
   color: #555;
 }
 @media screen and (min-width: 750px) {
-  .footer-copyright{
+  .beautyFooterCopyright{
     font-size:15px;
   }
 }
