@@ -1,0 +1,318 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    vertical-align: bottom;
+}
+
+.content {
+    max-width: 768px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content img {
+    display: block;
+    width: 100%;
+}
+
+
+/* contents mv */
+
+.mv-cont {
+  position: relative;
+}
+
+.backimg {
+  width: 100%;
+}
+
+.mv01 {
+    position: absolute;
+    top: 34.6%;
+    left: 12.8%;
+    width: 74.5%;
+    z-index: 1;
+}
+
+/* cta */
+
+.magic-frame {
+  position: relative;
+}
+
+.base-layer {
+  width: 100%;
+}
+
+.btn_teiki {
+    position: absolute;
+    top: 2.5%;
+    left: 4.5%;
+    display: inline-block;
+    width: 90%;
+}
+.btn_teiki img {
+  transition: opacity 0.3s ease;
+}
+
+.btn_teiki img:hover {
+  opacity: 0.7;
+}
+.btn_tanpin {
+    position: absolute;
+    top: 3.5%;
+    left: 4.5%;
+    display: inline-block;
+    width: 90%;
+}
+.btn_tanpin img {
+  transition: opacity 0.3s ease;
+}
+
+.btn_tanpin img:hover {
+  opacity: 0.7;
+}
+
+
+/* gif area */
+
+.gif-cot {
+  position: relative;
+}
+
+.gif01 {
+    position: absolute;
+    width: 82% !important;
+    top: 0;
+    left: 9%;
+    z-index: 1;
+}
+.gif02 {
+    position: absolute;
+    width: 82% !important;
+    bottom: 0;
+    left: 9%;
+    z-index: 1;
+}
+.gif-icon {
+    position: absolute;
+    width: 23.6% !important;
+    bottom: 24.1%;
+    left: 3.5%;
+    z-index: 2;
+}
+
+
+/*　test カルーセル　*/
+
+.first-sliderr{
+        width:100%;
+    }
+.first-slider img{
+        width: 100% !important;
+}
+.first-slider .swiper-wrapper{
+    transition-timing-function: linear;
+   /* gap: 3%;*/
+}
+
+.first-slider .sns-back {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.first-slider .swiper-wrapper {
+    position: relative;
+}
+
+.second-slider{
+        width:100%;
+    }
+.second-slider img{
+        width: 100% !important;
+}
+.second-slider .swiper-wrapper{
+    transition-timing-function: linear;
+    /*gap: 3%;*/
+}
+
+.second-slider .sns-back {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.second-slider .swiper-wrapper {
+    position: relative;
+}
+
+
+/* accordion area*/
+
+.ac,
+.ac dd {
+  margin: 0;
+}
+
+.ac dt {
+  cursor: pointer;
+}
+
+.ac dt img {
+  width: 100% !important;
+  height: auto;
+}
+
+.ac .wrap_btn .btn {
+  width: auto;
+  top: 0;
+  left: 0;
+}
+
+.ac dd,
+.ac .wrap_btn .btn.cls {
+  display: none;
+}
+
+.ac .wrap_btn.open .btn.opn {
+  display: none !important;
+}
+
+.ac .wrap_btn.open .btn.cls {
+  display: inline !important;
+}
+
+.wrap_btn {
+  position: relative;
+}
+
+.wrap_btn:hover {
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.ac .btn {
+    padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.image-a {
+  display: block;
+}
+
+.image-b {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+/* tell area */
+
+.box_call {
+	position: relative;
+
+}
+
+.box_call .call_01 {
+    position: absolute;
+    width: 91%;
+    bottom: 20.5%;
+    left: 4.3%;
+    z-index: 1;
+}
+
+/* オンマウス時に半透明にする */
+.call_01 img {
+  transition: opacity 0.3s ease;
+}
+
+.call_01 img:hover {
+  opacity: 0.7;
+}
+
+
+@media (max-width: 768px) {
+  .call_01 {
+    pointer-events: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .call_01 {
+    pointer-events: none;
+  }
+}
+
+
+/* footer */
+
+/* フッター全体 */
+.footer {
+  background-image: url("https://www.mh-lab.com/mh-lab_onesbouquet/images/onesbouquet_lp_bottom02_09.jpg");
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto 10%;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* メニューのスタイル */
+.footer-menu{
+  margin-top:5%;
+  max-width:768px;
+}
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 0 20px;
+    list-style: none;
+    gap:5%;
+}
+
+.footer-menu li {
+  display: inline;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 3.5vw;
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+@media screen and (min-width: 750px) {
+  .footer-menu a{
+    font-size:17px;
+  }
+}
+.footer-menu a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+
+.footer-copyright {
+  margin-top: 10px;
+  font-size: 3vw;
+  color: #555;
+}
+@media screen and (min-width: 750px) {
+  .footer-copyright{
+    font-size:15px;
+  }
+}

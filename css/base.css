@@ -1,0 +1,32 @@
+/* 
+base.css
+Last Updated: 2015-11-10
+Author: Shuichi Hirata
+*/
+
+
+html {
+ overflow-y: scroll;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+	font-size: 0;
+	line-height: 0;
+}
+a {
+  outline: none;
+}
+
+/* clearfix */
+.clearfix {zoom:1;}
+.clearfix:after{
+    content: ""; 
+    display: block; 
+    clear: both;}
