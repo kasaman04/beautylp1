@@ -10,13 +10,13 @@ body {
     vertical-align: bottom;
 }
 
-.beautyEssenceContainer {
+.shampooMainContainer {
     max-width: 768px;
     margin: 0 auto;
     overflow: hidden;
 }
 
-.beautyEssenceContainer img {
+.shampooMainContainer img {
     display: block;
     width: 100%;
 }
@@ -24,7 +24,7 @@ body {
 
 /* contents mv */
 
-.beautyVideoWrapper {
+.shampooVideoWrapper {
   position: relative;
 }
 
@@ -32,7 +32,7 @@ body {
   width: 100%;
 }
 
-.beautyMainVideo {
+.shampooHeroVideo {
     position: absolute;
     top: 34.6%;
     left: 12.8%;
@@ -42,65 +42,65 @@ body {
 
 /* cta */
 
-.beautyCtaFrame {
+.shampooPurchaseFrame {
   position: relative;
 }
 
-.beautyBaseLayer {
+.shampooBaseLayer {
   width: 100%;
 }
 
-.beautySubscriptionBtn {
+.shampooSubscriptionBtn {
     position: absolute;
     top: 2.5%;
     left: 4.5%;
     display: inline-block;
     width: 90%;
 }
-.beautySubscriptionBtn img {
+.shampooSubscriptionBtn img {
   transition: opacity 0.3s ease;
 }
 
-.beautySubscriptionBtn img:hover {
+.shampooSubscriptionBtn img:hover {
   opacity: 0.7;
 }
-.beautySinglePurchaseBtn {
+.shampooSinglePurchaseBtn {
     position: absolute;
     top: 3.5%;
     left: 4.5%;
     display: inline-block;
     width: 90%;
 }
-.beautySinglePurchaseBtn img {
+.shampooSinglePurchaseBtn img {
   transition: opacity 0.3s ease;
 }
 
-.beautySinglePurchaseBtn img:hover {
+.shampooSinglePurchaseBtn img:hover {
   opacity: 0.7;
 }
 
 
 /* gif area */
 
-.beautyAnimationContainer {
+.shampooAnimationContainer {
   position: relative;
 }
 
-.beautyFirstAnimation {
+.shampooFirstAnimation {
     position: absolute;
     width: 82% !important;
     top: 0;
     left: 9%;
     z-index: 1;
 }
-.beautySecondAnimation {
+.shampooSecondAnimation {
     position: absolute;
     width: 82% !important;
     bottom: 0;
     left: 9%;
     z-index: 1;
 }
-.beautyIngredientIcon {
+.shampooIngredientIcon {
     position: absolute;
     width: 23.6% !important;
     bottom: 24.1%;
@@ -111,46 +111,46 @@ body {
 
 /*　test カルーセル　*/
 
-.beautyFirstSliderr{
+.shampooFirstSliderr{
         width:100%;
     }
-.beautyFirstSlider img{
+.shampooFirstSlider img{
         width: 100% !important;
 }
-.beautyFirstSlider .swiper-wrapper{
+.shampooFirstSlider .swiper-wrapper{
     transition-timing-function: linear;
    /* gap: 3%;*/
 }
 
-.beautyFirstSlider .beautySnsBackground {
+.shampooFirstSlider .shampooSnsBackground {
     position: absolute;
     width: 100%;
     z-index: 1;
 }
 
-.beautyFirstSlider .swiper-wrapper {
+.shampooFirstSlider .swiper-wrapper {
     position: relative;
     z-index: 2;
 }
 
-.beautySecondSlider{
+.shampooSecondSlider{
         width:100%;
     }
-.beautySecondSlider img{
+.shampooSecondSlider img{
         width: 100% !important;
 }
-.beautySecondSlider .swiper-wrapper{
+.shampooSecondSlider .swiper-wrapper{
     transition-timing-function: linear;
     /*gap: 3%;*/
 }
 
-.beautySecondSlider .beautySnsBackground {
+.shampooSecondSlider .shampooSnsBackground {
     position: absolute;
     width: 100%;
     z-index: 1;
 }
 
-.beautySecondSlider .swiper-wrapper {
+.shampooSecondSlider .swiper-wrapper {
     position: relative;
     z-index: 2;
 }
@@ -158,48 +158,48 @@ body {
 
 /* accordion area*/
 
-.beautyAccordion,
-.beautyAccordion dd {
+.shampooAccordion,
+.shampooAccordion dd {
   margin: 0;
 }
 
-.beautyAccordion dt {
+.shampooAccordion dt {
   cursor: pointer;
 }
 
-.beautyAccordion dt img {
+.shampooAccordion dt img {
   width: 100% !important;
   height: auto;
 }
 
-.beautyAccordion .beautyToggleBtn .beautyBtn {
+.shampooAccordion .shampooToggleBtn .shampooBtn {
   width: auto;
   top: 0;
   left: 0;
 }
 
-.beautyAccordion dd,
-.beautyAccordion .beautyToggleBtn .beautyBtn.beautyClose {
+.shampooAccordion dd,
+.shampooAccordion .shampooToggleBtn .shampooBtn.shampooClose {
   display: none;
 }
 
-.beautyAccordion .beautyToggleBtn.beautyExpanded .beautyBtn.beautyOpen {
+.shampooAccordion .shampooToggleBtn.shampooExpanded .shampooBtn.shampooOpen {
   display: none !important;
 }
 
-.beautyAccordion .beautyToggleBtn.beautyExpanded .beautyBtn.beautyClose {
+.shampooAccordion .shampooToggleBtn.shampooExpanded .shampooBtn.shampooClose {
   display: inline !important;
 }
 
-.beautyToggleBtn {
+.shampooToggleBtn {
   position: relative;
 }
 
-.beautyToggleBtn:hover {
+.shampooToggleBtn:hover {
   -webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
-.beautyAccordion .beautyBtn {
+.shampooAccordion .shampooBtn {
     padding: 0;
 }
 
@@ -222,12 +222,12 @@ body {
 
 /* tell area */
 
-.beautyCallContainer {
+.shampooCallContainer {
 	position: relative;
 
 }
 
-.beautyCallContainer .beautyCallBtn {
+.shampooCallContainer .shampooCallBtn {
     position: absolute;
     width: 91%;
     bottom: 20.5%;
@@ -236,23 +236,23 @@ body {
 }
 
 /* オンマウス時に半透明にする */
-.beautyCallBtn img {
+.shampooCallBtn img {
   transition: opacity 0.3s ease;
 }
 
-.beautyCallBtn img:hover {
+.shampooCallBtn img:hover {
   opacity: 0.7;
 }
 
 
 @media (max-width: 768px) {
-  .beautyCallBtn {
+  .shampooCallBtn {
     pointer-events: auto;
   }
 }
 
 @media (min-width: 769px) {
-  .beautyCallBtn {
+  .shampooCallBtn {
     pointer-events: none;
   }
 }
@@ -261,7 +261,7 @@ body {
 /* footer */
 
 /* フッター全体 */
-.beautyFooter {
+.shampooFooter {
   background-image: url("https://www.mh-lab.com/mh-lab_onesbouquet/images/onesbouquet_lp_bottom02_09.jpg");
   width: 100%;
   max-width: 768px;
@@ -272,11 +272,11 @@ body {
 }
 
 /* メニューのスタイル */
-.beautyFooterMenu{
+.shampooFooterMenu{
   margin-top:5%;
   max-width:768px;
 }
-.beautyFooterMenu ul {
+.shampooFooterMenu ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -286,11 +286,11 @@ body {
     gap:5%;
 }
 
-.beautyFooterMenu li {
+.shampooFooterMenu li {
   display: inline;
 }
 
-.beautyFooterMenu a {
+.shampooFooterMenu a {
   text-decoration: none;
   color: black;
   font-size: 3.5vw;
@@ -298,23 +298,23 @@ body {
   transition: opacity 0.3s ease;
 }
 @media screen and (min-width: 750px) {
-  .beautyFooterMenu a{
+  .shampooFooterMenu a{
     font-size:17px;
   }
 }
-.beautyFooterMenu a:hover {
+.shampooFooterMenu a:hover {
   text-decoration: none;
   opacity: 0.6;
 }
 
 
-.beautyFooterCopyright {
+.shampooFooterCopyright {
   margin-top: 10px;
   font-size: 3vw;
   color: #555;
 }
 @media screen and (min-width: 750px) {
-  .beautyFooterCopyright{
+  .shampooFooterCopyright{
     font-size:15px;
   }
 }
