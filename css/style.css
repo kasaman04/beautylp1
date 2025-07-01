@@ -109,50 +109,25 @@ body {
 }
 
 
-/*　test カルーセル　*/
+/* SNS Grid Layout */
 
-.shampooFirstSliderr{
-        width:100%;
-    }
-.shampooFirstSlider img{
-        width: 100% !important;
-}
-.shampooFirstSlider .swiper-wrapper{
-    transition-timing-function: linear;
-   /* gap: 3%;*/
+.shampooSnsGrid {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
-.shampooFirstSlider .shampooSnsBackground {
-    position: absolute;
-    width: 100%;
-    z-index: 1;
+.shampooSnsRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
-.shampooFirstSlider .swiper-wrapper {
-    position: relative;
-    z-index: 2;
-}
-
-.shampooSecondSlider{
-        width:100%;
-    }
-.shampooSecondSlider img{
-        width: 100% !important;
-}
-.shampooSecondSlider .swiper-wrapper{
-    transition-timing-function: linear;
-    /*gap: 3%;*/
-}
-
-.shampooSecondSlider .shampooSnsBackground {
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-}
-
-.shampooSecondSlider .swiper-wrapper {
-    position: relative;
-    z-index: 2;
+.shampooSnsRow img {
+  flex: 1;
+  width: 33.33%;
+  height: auto;
+  display: block;
 }
 
 

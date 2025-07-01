@@ -14,8 +14,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="デュアルブーストエッセンスWは、医薬品会社が本気で開発した薬用先攻美容液。プロバイオティクス技術を活かし、独自開発した成分「BASE」を約50%配合。年齢による肌のゆらぎ期にダイレクトアプローチ！">
 <meta name="keywords" content="M&Hラボ,ONE'S BOUQUET,ワンズブーケ,デュアルブーストエッセンスW,商品紹介,イソフラボン,活性型イソフラボン,美容液,BASE,ゆらぎ,女性ホルモン,大豆,スキンケア,整腸,東亜新薬株式会社,プロバイオティクス">
 <title>【M&amp;Hラボ公式】｜ONE'S BOUQUET デュアルブーストエッセンスW｜医薬品会社だからこそ辿り着いた本気のシワ改善×シミ予防</title>
-<!-- Swiper用CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 <link rel="stylesheet" href="css/html5reset-1.6.1.css">
 <link rel="stylesheet" href="css/base.css">
 <link rel="stylesheet" href="css/style.css">
@@ -47,36 +45,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- ses contents end -->
     
     
-    <!-- ses contents test start-->
+    <!-- sns grid contents start-->
 
-<div class="swiper shampooFirstSlider">
-        <img src="images/sns/sns_bk01.jpg" alt="" class="shampooSnsBackground">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="images/sns/sns1-01.png" alt="SNSでも話題！"></div>
-        <div class="swiper-slide"><img src="images/sns/sns1-02.png" alt="SNSでも話題！"></div>
-        <div class="swiper-slide"><img src="images/sns/sns1-03.png" alt="SNSでも話題！"></div>
-        <div class="swiper-slide"><img src="images/sns/sns1-04.png" alt="SNSでも話題！"></div>
-        <div class="swiper-slide"><img src="images/sns/sns1-05.png" alt="SNSでも話題！"></div>
-        <div class="swiper-slide"><img src="images/sns/sns1-06.png" alt="SNSでも話題！"></div>
-    </div>
+<div class="shampooSnsGrid">
+  <div class="shampooSnsRow">
+    <img src="images/sns/sns1-01.png" alt="SNS口コミ1">
+    <img src="images/sns/sns1-02.png" alt="SNS口コミ2">
+    <img src="images/sns/sns1-03.png" alt="SNS口コミ3">
+  </div>
+  <div class="shampooSnsRow">
+    <img src="images/sns/sns1-04.png" alt="SNS口コミ4">
+    <img src="images/sns/sns1-05.png" alt="SNS口コミ5">
+    <img src="images/sns/sns1-06.png" alt="SNS口コミ6">
+  </div>
 </div>
-
-    <img src="images/sns/sns_space.jpg" alt="">
-<div class="swiper shampooSecondSlider">
-        <img src="images/sns/sns_bk02.jpg" alt="" class="shampooSnsBackground">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="images/sns/sns2-01.png" alt="SNSでも話題！"></div>
-        <div class="swiper-slide"><img src="images/sns/sns2-02.png" alt="SNSでも話題！"></div>
-        <div class="swiper-slide"><img src="images/sns/sns2-03.png" alt="SNSでも話題！"></div>
-        <div class="swiper-slide"><img src="images/sns/sns2-04.png" alt="SNSでも話題！"></div>
-        <div class="swiper-slide"><img src="images/sns/sns2-05.png" alt="SNSでも話題！"></div>
-        <div class="swiper-slide"><img src="images/sns/sns2-06.png" alt="SNSでも話題！"></div>
-    </div>
-</div>
-
 
     <img src="images/onesbouquet_lp_top02_05.jpg" alt="※アグリコン型イソフラボン（ダイゼイン、ゲニステイン等）のこと">
-    <!-- ses contents test end-->
+    <!-- sns grid contents end-->
     
 
     
@@ -308,42 +293,6 @@ $(function() {
 		$(this).toggleClass("shampooExpanded");
 	});
 });
-</script>
- <script>
- document.querySelectorAll('.carousel__track').forEach((track) => {
-  const items = track.innerHTML; // 現在のアイテムを取得
-  track.innerHTML += items; // アイテムを複製
-});
- </script>
- 
-<!-- Swiper用JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-// first-sliderのSwiperインスタンス
-const firstSwiper = new Swiper('.shampooFirstSlider', {
-    loop: true,
-    speed: 4000,
-    spaceBetween: 20,
-    slidesPerView: 3,
-    allowTouchMove: false,
-    autoplay: {
-        delay: 0,
-    },
-});
-
-// second-sliderのSwiperインスタンス
-const secondSwiper = new Swiper('.shampooSecondSlider', {
-    loop: true,
-    speed: 4000,
-    spaceBetween: 20,
-    slidesPerView: 3,
-    allowTouchMove: false,
-    autoplay: {
-        delay: 0,
-        reverseDirection: true, // 逆方向にスライド
-    },
-});
-
 </script>
     <script>
         window.addEventListener("pageshow", function (event) {
