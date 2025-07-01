@@ -1,8 +1,3 @@
-/* 
-base.css
-Last Updated: 2015-11-10
-Author: Shuichi Hirata
-*/
 
 
 html {
@@ -24,7 +19,6 @@ a {
   outline: none;
 }
 
-/* clearfix */
 .clearfix {zoom:1;}
 .clearfix:after{
     content: ""; 
