@@ -117,7 +117,7 @@ body {
 .beautyFirstSlider img{
         width: 100% !important;
 }
-.beautyFirstSlider .beautySwiperWrapper{
+.beautyFirstSlider .swiper-wrapper{
     transition-timing-function: linear;
    /* gap: 3%;*/
 }
@@ -128,7 +128,7 @@ body {
     z-index: 1;
 }
 
-.beautyFirstSlider .beautySwiperWrapper {
+.beautyFirstSlider .swiper-wrapper {
     position: relative;
     z-index: 2;
 }
@@ -139,7 +139,7 @@ body {
 .beautySecondSlider img{
         width: 100% !important;
 }
-.beautySecondSlider .beautySwiperWrapper{
+.beautySecondSlider .swiper-wrapper{
     transition-timing-function: linear;
     /*gap: 3%;*/
 }
@@ -150,7 +150,7 @@ body {
     z-index: 1;
 }
 
-.beautySecondSlider .beautySwiperWrapper {
+.beautySecondSlider .swiper-wrapper {
     position: relative;
     z-index: 2;
 }

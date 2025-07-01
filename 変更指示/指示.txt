@@ -1,0 +1,32 @@
+元サイト
+https://www.mh-lab.com/onesbouquet_mh/
+
+<div class="swiper first-slider swiper-initialized swiper-horizontal swiper-backface-hidden">
+        <img src="images/sns/sns_bk01.jpg" alt="" class="sns-back">
+    <div class="swiper-wrapper" id="swiper-wrapper-4f53f6be3f6e5aa9" aria-live="off" style="transition-duration: 4000ms; transform: translate3d(-582px, 0px, 0px);">
+        
+        
+        
+        
+        
+        
+    <div class="swiper-slide" role="group" aria-label="2 / 6" data-swiper-slide-index="1" style="width: 174px; margin-right: 20px;"><img src="images/sns/sns1-02.png" alt="SNSでも話題！"></div><div class="swiper-slide" role="group" aria-label="3 / 6" data-swiper-slide-index="2" style="width: 174px; margin-right: 20px;"><img src="images/sns/sns1-03.png" alt="SNSでも話題！"></div><div class="swiper-slide swiper-slide-prev" role="group" aria-label="4 / 6" data-swiper-slide-index="3" style="width: 174px; margin-right: 20px;"><img src="images/sns/sns1-04.png" alt="SNSでも話題！"></div><div class="swiper-slide swiper-slide-active" role="group" aria-label="5 / 6" data-swiper-slide-index="4" style="width: 174px; margin-right: 20px;"><img src="images/sns/sns1-05.png" alt="SNSでも話題！"></div><div class="swiper-slide swiper-slide-next" role="group" aria-label="6 / 6" data-swiper-slide-index="5" style="width: 174px; margin-right: 20px;"><img src="images/sns/sns1-06.png" alt="SNSでも話題！"></div><div class="swiper-slide" role="group" aria-label="1 / 6" data-swiper-slide-index="0" style="width: 174px; margin-right: 20px;"><img src="images/sns/sns1-01.png" alt="SNSでも話題！"></div></div>
+<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+
+
+<div class="swiper second-slider swiper-initialized swiper-horizontal swiper-backface-hidden">
+        <img src="images/sns/sns_bk02.jpg" alt="" class="sns-back">
+    <div class="swiper-wrapper" id="swiper-wrapper-793549bdb70651002" aria-live="off" style="transition-duration: 4000ms; transform: translate3d(0px, 0px, 0px);"><div class="swiper-slide swiper-slide-active" role="group" aria-label="3 / 6" data-swiper-slide-index="2" style="width: 174px; margin-right: 20px;"><img src="images/sns/sns2-03.png" alt="SNSでも話題！"></div><div class="swiper-slide swiper-slide-next" role="group" aria-label="4 / 6" data-swiper-slide-index="3" style="width: 174px; margin-right: 20px;"><img src="images/sns/sns2-04.png" alt="SNSでも話題！"></div><div class="swiper-slide" role="group" aria-label="5 / 6" data-swiper-slide-index="4" style="width: 174px; margin-right: 20px;"><img src="images/sns/sns2-05.png" alt="SNSでも話題！"></div><div class="swiper-slide" role="group" aria-label="6 / 6" data-swiper-slide-index="5" style="width: 174px; margin-right: 20px;"><img src="images/sns/sns2-06.png" alt="SNSでも話題！"></div><div class="swiper-slide" role="group" aria-label="1 / 6" data-swiper-slide-index="0" style="width: 174px; margin-right: 20px;"><img src="images/sns/sns2-01.png" alt="SNSでも話題！"></div><div class="swiper-slide" role="group" aria-label="2 / 6" data-swiper-slide-index="1" style="width: 174px; margin-right: 20px;"><img src="images/sns/sns2-02.png" alt="SNSでも話題！"></div>
+        
+        
+        
+        
+        
+        
+    </div>
+<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+
+
+元サイトと比較して修正して。
