@@ -130,6 +130,7 @@ body {
 
 .beautyFirstSlider .beautySwiperWrapper {
     position: relative;
+    z-index: 2;
 }
 
 .beautySecondSlider{
@@ -151,6 +152,7 @@ body {
 
 .beautySecondSlider .beautySwiperWrapper {
     position: relative;
+    z-index: 2;
 }
 
 
